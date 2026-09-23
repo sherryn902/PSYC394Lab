@@ -6,7 +6,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <title>Lab 1 One-way ANOVA | Answering questions with data: Lab Manual</title>
   <meta name="description" content="A lab manual for Psyc 394 at StFX" />
-  <meta name="generator" content="bookdown 0.40 and GitBook 2.6.7" />
+  <meta name="generator" content="bookdown 0.46 and GitBook 2.6.7" />
 
   <meta property="og:title" content="Lab 1 One-way ANOVA | Answering questions with data: Lab Manual" />
   <meta property="og:type" content="book" />
@@ -290,13 +290,13 @@ The analysis of variance is not a mathematical theorem, but rather a convenient 
 <p>Because Levene’s test is significant, we should report the ANOVA with Welch’s adjustment.</p>
 <p><img src="img/OneWayANOVAResultsANOVATableReadingWelchs.png" /><!-- --></p>
 <p>We see our <em>F</em>-statistic listed is 6.0824, with a <em>p</em>-value of .0019. This tests the null hypothesis that there is no difference among the groups. Since <em>p</em> is less than our likely alpha level (.05), we can reject the null hypothesis and conclude that there IS a difference somewhere among these groups. We may say it more formally as follows:</p>
-<p>The effect of condition on mean intrusive memories over days 1-7 was significant, <em>F</em>(3, 35.75) = 6.08, <em>p</em> &lt; .05.</p>
+<p>The effect of condition on mean intrusive memories over days 1-7 was significant, <em>F</em>(3, 35.75) = 6.08, <em>p</em> = .002.</p>
 <div id="some-apa-formatting-reminders-for-writing-results-sections" class="section level4 hasAnchor" number="1.3.3.1">
 <h4><span class="header-section-number">1.3.3.1</span> Some APA formatting reminders for writing results sections<a href="one-way-anova.html#some-apa-formatting-reminders-for-writing-results-sections" class="anchor-section" aria-label="Anchor link to header"></a></h4>
 <ol style="list-style-type: decimal">
 <li><p>Always note the name of the test you performed (in this case, one-way analysis of variance, or ANOVA) and whether the result is significant or non-significant <em>(<strong>Note</strong>: We do not use the word insignificant.)</em>.</p></li>
 <li><p>We usually round to two decimal places, except for <em>p</em>-values. If your <em>p</em>-value was .0001, it would be okay to write <em>p</em> = .0001 or <em>p</em> &lt; .001.</p></li>
-<li><p>Do not include a leading 0 before the decimal for the <em>p</em>-value (<em>p</em> = .001 not <em>p</em> = 0.001, or <em>p</em> &lt; .05 not <em>p</em> &lt; 0.05).</p></li>
+<li><p>Do not include a leading 0 before the decimal for the <em>p</em>-value (<em>p</em> = .001 not <em>p</em> = 0.001, or <em>p</em> &gt; .05 not <em>p</em> &gt; 0.05).</p></li>
 </ol>
 <div class="marginnote">
 <p>Yes, I’m serious. No, I don’t know why. Yes, it does seem a bit silly. Yes, you lose points if you don’t adhere to APA format when requested to do so.</p>
@@ -308,7 +308,7 @@ The analysis of variance is not a mathematical theorem, but rather a convenient 
 <p>Had Levene’s test been non-significant, we might have reported Fisher’s statistic.</p>
 <p><img src="img/OneWayANOVAResultsANOVATableReadingFishers.png" /><!-- --></p>
 <p>In that row of the One-Way ANOVA results table, we see our <em>F</em>-statistic listed is 3.7948, with a <em>p</em>-value of .014. Since <em>p</em> is less than our likely alpha level (.05), we would have rejected the null hypothesis and concluded that there IS a difference somewhere among these groups. We might have said it more formally as follows:</p>
-<p>The effect of condition on mean intrusive memories over days 1-7 was significant, <em>F</em>(3, 68) = 3.80, <em>p</em> &lt; .05.</p>
+<p>The effect of condition on mean intrusive memories over days 1-7 was significant, <em>F</em>(3, 68) = 3.80, <em>p</em> = .014.</p>
 <p>To examine the data further, let’s refer to the graph created by JAMOVI:</p>
 <p><img src="img/OneWayANOVAResultsDescriptivePlot.png" /><!-- --></p>
 <p>Remember 1 = No-Task Control, 2 = Reactivation+Tetris, 3 = Tetris Only, and 4 = Reactivation Only.</p>
@@ -367,42 +367,42 @@ Both tables report the same statistics.</p>
 <script>
 gitbook.require(["gitbook"], function(gitbook) {
 gitbook.start({
-"sharing": {
-"github": false,
-"facebook": true,
-"twitter": true,
-"linkedin": false,
-"weibo": false,
-"instapaper": false,
-"vk": false,
-"whatsapp": false,
-"all": ["facebook", "twitter", "linkedin", "weibo", "instapaper"]
-},
-"fontsettings": {
-"theme": "white",
-"family": "sans",
-"size": 2
-},
-"edit": {
-"link": "https://github.com/CrumpLab/statisticsLab/01-ANOVA.Rmd",
-"text": "Edit"
-},
-"history": {
-"link": null,
-"text": null
-},
-"view": {
-"link": null,
-"text": null
-},
-"download": null,
-"search": {
-"engine": "fuse",
-"options": null
-},
-"toc": {
-"collapse": "subsection"
-}
+  "sharing": {
+    "github": false,
+    "facebook": true,
+    "twitter": true,
+    "linkedin": false,
+    "weibo": false,
+    "instapaper": false,
+    "vk": false,
+    "whatsapp": false,
+    "all": ["facebook", "twitter", "linkedin", "weibo", "instapaper"]
+  },
+  "fontsettings": {
+    "theme": "white",
+    "family": "sans",
+    "size": 2
+  },
+  "edit": {
+    "link": "https://github.com/CrumpLab/statisticsLab/01-ANOVA.Rmd",
+    "text": "Edit"
+  },
+  "history": {
+    "link": null,
+    "text": null
+  },
+  "view": {
+    "link": null,
+    "text": null
+  },
+  "download": null,
+  "search": {
+    "engine": "fuse",
+    "options": null
+  },
+  "toc": {
+    "collapse": "subsection"
+  }
 });
 });
 </script>

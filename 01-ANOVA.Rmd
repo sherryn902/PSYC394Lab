@@ -171,7 +171,7 @@ knitr::include_graphics('img/OneWayANOVAResultsANOVATableReadingWelchs.png')
 
 We see our *F*-statistic listed is 6.0824, with a *p*-value of .0019. This tests the null hypothesis that there is no difference among the groups. Since *p* is less than our likely alpha level (.05), we can reject the null hypothesis and conclude that there IS a difference somewhere among these groups. We may say it more formally as follows:
 
-The effect of condition on mean intrusive memories over days 1-7 was significant, *F*(3, 35.75) = 6.08, *p* < .05. 
+The effect of condition on mean intrusive memories over days 1-7 was significant, *F*(3, 35.75) = 6.08, *p* = .002. 
 
 #### Some APA formatting reminders for writing results sections
 
@@ -179,7 +179,7 @@ The effect of condition on mean intrusive memories over days 1-7 was significant
 
 2. We usually round to two decimal places, except for *p*-values. If your *p*-value was .0001, it would be okay to write *p* = .0001 or *p* < .001.
 
-3. Do not include a leading 0 before the decimal for the *p*-value (*p* = .001 not *p* = 0.001, or *p* < .05 not *p* < 0.05).
+3. Do not include a leading 0 before the decimal for the *p*-value (*p* = .001 not *p* = 0.001, or *p* > .05 not *p* > 0.05).
 
 <div class="marginnote">
 Yes, I'm serious. No, I don't know why. Yes, it does seem a bit silly. Yes, you lose points if you don't adhere to APA format when requested to do so.
@@ -198,7 +198,7 @@ knitr::include_graphics('img/OneWayANOVAResultsANOVATableReadingFishers.png')
 
 In that row of the One-Way ANOVA results table, we see our *F*-statistic listed is 3.7948, with a *p*-value of .014. Since *p* is less than our likely alpha level (.05), we would have rejected the null hypothesis and concluded that there IS a difference somewhere among these groups. We might have said it more formally as follows:
 
-The effect of condition on mean intrusive memories over days 1-7 was significant, *F*(3, 68) = 3.80, *p* < .05. 
+The effect of condition on mean intrusive memories over days 1-7 was significant, *F*(3, 68) = 3.80, *p* = .014. 
 
 To examine the data further, let's refer to the graph created by JAMOVI: 
 
